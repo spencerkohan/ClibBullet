@@ -1,0 +1,6 @@
+module ClibBullet [system] {
+  header "bullet/btBulletCollisionCommon.h"
+  header "bullet/btBulletDynamicsCommon.h"
+  link "bullet"
+  export *
+}
